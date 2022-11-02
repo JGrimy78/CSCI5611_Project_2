@@ -1,2 +1,8 @@
 # CSCI5611_Project_2
 Cloth Simulation
+
+Description:
+I made a functioning cloth mesh in Processing 4. Depending on what the boolean "quad" is set to, this cloth mesh can either be represented in the form of lines or quadrilaterals that are updated every frame. The cloth mesh simulation is based off of rope physics, using Hooke's law to help calculate the physics applied to the rope at each node. I incorporated horisontal ropes as well to simulate the "mesh" cloth is formed by. I also incorporated an obstacle the user can move to see how it interacts with the cloth, which is displayed in both of the videos. The mesh and cloth can be seen with a color gradient incorporated to improve visibility and aesthetic. Other than Professor Guy's Vector library, no other outside libraries were used. Although I did include lights in order for 3D representation, the camera unfortunately does not move.
+
+Difficulties:
+I had a very difficult time with collisions at first. This was because the obsacle and cloth were on the exact same Z plane, causing the cloth to bunch up instead of falling over the sphere. Another difficulty I had was how to format and divide my code so that each function completed a specific task and was not too broad. I am happy with the overall style of my code in the final portion of the project, however. Another extreme issue for me was time management. Due to poor mental health it was difficult for me to keep up to date on the project, and although I will probably be docked points for turning it in late, I am glad I saw through to the end and produced a project I am actually quite happy with. 
